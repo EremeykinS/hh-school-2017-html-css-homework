@@ -1,0 +1,50 @@
+.active_card {
+	&:before {
+        content: '';
+        position: absolute;
+        left: 40%;
+        top: 0px;
+        width: 20%;
+        border: 4px solid @color-active;
+	}
+}
+.card {
+	/*position: relative;*/
+	color: #b7b7b7;
+	background: #222222;
+	margin-bottom: 100px;
+	border: none;
+	border-radius: 0;
+}
+
+	.card__type {
+		font-size: 14pt;
+		margin: 65px 35px 10px;
+		text-transform: uppercase;
+	}
+
+	.card__title {
+		font-size: 20pt;
+		margin: 0 35px 85px;
+		line-height: 1.25;
+	}
+
+	.card__photo {
+		background: url(../img/Jefferson.png) no-repeat;
+		background-size: 60px 60px;
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		margin: 0 1px 1px 35px;
+	}
+
+	.card__person {
+		text-transform: uppercase;
+		display: inline-block;
+		width: 150px;
+	}
+
+	.card__date {
+		display: inline-block;
+	}
