@@ -127,12 +127,12 @@
                     <div class="row carousel">
                         <div class="col-4">
                             <div class="event-card active_event-card">
-                                <p class="event-card__type">
+                                <div class="event-card__type">
                                     Comic
-                                </p>
-                                <p class="event-card__title">
+                                </div>
+                                <a class="event-card__title" href="#">
                                     A million ways to die in the wild wild wild west
-                                </p>
+                                </a>
                                 <div class="row align-items-center">
                                     <div class="col-4">
                                         <img class="event-card__photo" src="./img/Jefferson.png">
@@ -150,12 +150,12 @@
                         </div>
                         <div class="col-4">
                             <div class="event-card">
-                                <p class="event-card__type">
+                                <div class="event-card__type">
                                     Lifestyle
-                                </p>
-                                <p class="event-card__title">
+                                </div>
+                                <a class="event-card__title" href="#">
                                     A million ways to die in the wild wild wild west
-                                </p>
+                                </a>
                                 <div class="row align-items-center">
                                     <div class="col-4">
                                         <img class="event-card__photo" src="./img/Jefferson.png">
@@ -173,12 +173,12 @@
                         </div>
                         <div class="col-4">
                             <div class="event-card">
-                                <p class="event-card__type">
+                                <div class="event-card__type">
                                     Travel
-                                </p>
-                                <p class="event-card__title">
+                                </div>
+                                <a class="event-card__title" href="#">
                                     A million ways to die in the wild wild wild west
-                                </p>
+                                </a>
                                 <div class="row align-items-center">
                                     <div class="col-4">
                                         <img class="event-card__photo" src="./img/Jefferson.png">
@@ -265,7 +265,7 @@
                     </div>
                 </div>
             </section>
-            <div class="gallery">
+            <div class="gallery mx-auto">
                 <ul class="gallery__container">
                     <li class="gallery__screenshot">
                         <img src="./img/screenshot1.png" >
@@ -281,26 +281,16 @@
                     </li>
                 </ul>
             </div>
-            <div class="row justify-content-center gallery__indicators">
-                <div class="col-12">
-                    <div class="gallery__indicator"></div>
-                    <div class="gallery__indicator"></div>
-                    <div class="gallery__indicator"></div>
-                    <div class="gallery__indicator"></div>
-<!--                     <div class="row">
-                        <div class="col-3">
-                            <div class="gallery__indicator"></div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gallery__indicator"></div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gallery__indicator gallery__indicator_active"></div>
-                        </div>
-                        <div class="col-3">
-                            <div class="gallery__indicator"></div>
-                        </div>
-                    </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="gallery__indicators">
+                            <li class="gallery__indicator "></li>
+                            <li class="gallery__indicator"></li>
+                            <li class="gallery__indicator gallery__indicator_active"></li>
+                            <li class="gallery__indicator"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <section class="substrate_quote">
@@ -661,6 +651,7 @@
                         </ul>
                     </div>
                 </div>
+            </div>
         </footer>
     </body>
 </html>
